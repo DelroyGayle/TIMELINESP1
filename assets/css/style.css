@@ -93,7 +93,7 @@ h1 .header {
     content: attr(data-date);
     text-align: right;
   
-    font-size: 16px;
+    font-size: 14px;
     min-width: 120px;
 }
   
@@ -118,12 +118,22 @@ h1 .header {
   }
 
   img {
-    width: 300px;
+    max-width: 150px;
+    max-height: 150px;
   }
 
   .flex-display {
     display:flex;
     flex-direction: row;
+  }
+
+  .block-display {
+    display: block;
+  }
+
+  .newlines::after{
+        content: "\a";
+        white-space: pre;
   }
 
   a.portfolio-link {
@@ -150,11 +160,6 @@ Responsive Stuff
 
     .timeline p {
       padding-top: 20px;
-    }
-
-    .lab h3.card-title {
-      padding: 5px;
-      font-size: 16px
     }
     
     .flex-display {
