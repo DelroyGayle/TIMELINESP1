@@ -2,9 +2,13 @@
   Global
 ———————————————*/
 
-  body {
+:root {
+  --timeline-colour: #42A5F5;
+}
+
+body {
     font-family: helvetica;
-  }
+}
 
 /*——————————————
   TimeLine CSS
@@ -29,10 +33,6 @@
     margin-bottom: 20px;
 }
 
-.lighten-1 {
-    color:#42A5F5
-}
-
 .timeline-outer {
     width: 80%;
     margin: 0 auto;
@@ -46,10 +46,10 @@ h1 .header {
 /* Timeline */
   
 .timeline {
-    border-left: 8px solid #42A5F5;
+    border-left: 8px solid var(--timeline-colour);
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(210, 190, 190, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     color: #333;
     margin: 50px auto;
     letter-spacing: 0.5px;
@@ -98,7 +98,7 @@ h1 .header {
 }
   
 .timeline .event:after {
-    box-shadow: 0 0 0 8px #42A5F5;
+    box-shadow: 0 0 0 8px var(--timeline-colour);
     left: -30px;
     background: #212121;
     border-radius: 50%;
@@ -113,18 +113,21 @@ h1 .header {
   ———————————————*/
 
   
-  .blue-text {
-    color: #2196F3
+  .the-text-color {
+    color: var(--timeline-colour);
   }
 
   img {
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 240px;
+    max-height: 220px;
+    width: 100%;
+    object-fit: cover;
   }
 
   .flex-display {
     display:flex;
     flex-direction: row;
+    gap: 2rem;
   }
 
   .block-display {
@@ -166,6 +169,11 @@ Responsive Stuff
         display:flex;
         flex-direction: column;
      }
+
+    img {
+      max-width: 300px;
+      max-height: 300px;
+    }
       
 }
   
@@ -190,4 +198,11 @@ Responsive Stuff
     .timeline p {
       padding-top: 20px;
     }
+
+
+    img {
+      max-width: 250px;
+      max-height: 250px;
+  }
+
 }
