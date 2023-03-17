@@ -117,12 +117,34 @@ h1 .header {
     color: var(--timeline-colour);
   }
 
+  /*
   img {
     max-width: 240px;
     max-height: 220px;
     width: 100%;
     object-fit: cover;
   }
+*/
+
+.flex-display p {
+  flex-shrink: 5;
+}
+
+.image-container{
+  
+  width: 200px;        
+  height: 180px;
+  border: 5px solid #399cec;
+  border-radius: .5em;
+}
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  width:100%;
+  height:100%; /* solution */
+  object-fit: cover;
+} 
+
 
   .flex-display {
     display:flex;
@@ -199,10 +221,11 @@ Responsive Stuff
       padding-top: 20px;
     }
 
-
+/*
     img {
       max-width: 250px;
       max-height: 250px;
   }
+*/
 
 }
