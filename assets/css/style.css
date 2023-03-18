@@ -12,25 +12,33 @@ body {
 
 /*——————————————
   TimeLine CSS
+  The Code regarding the Timeline is not mine.
+  This Timeline was designed by Samet Erpik
+  Source: https://codepen.io/samerpik/pen/OVKyVZ 
+  However, I have made modifications to it for my portfolio.
 ———————————————*/
+
+/* My Code */
+  
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+.row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-bottom: 20px;
+}
+
+/* Samet Erpik's Timeline code */
 
 /* Base */
   
 #content {
     margin-top: 50px;
     text-align: center;
-}
-  
-.container {
-    margin: 0 auto;
-    max-width: 1280px;
-    width: 90%;
-}
-
-.row {
-    margin-left: -0.75rem;
-    margin-right: -0.75rem;
-    margin-bottom: 20px;
 }
 
 .timeline-outer {
@@ -108,23 +116,71 @@ h1 .header {
     top: 5px;
 }
 
+
+/*——————————————
+Responsive Stuff
+———————————————*/
+  
+@media (max-width: 945px) {
+  .timeline .event::before {
+    left: 0.5px;
+    top: 20px;
+    min-width: 0;
+    font-size: 13px;
+  }
+
+  .timeline h3 {
+    font-size: 16px;
+  }
+
+  .timeline p {
+    padding-top: 20px;
+  }
+  
+  .flex-display {
+      display:flex;
+      flex-direction: column;
+   }
+
+  img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+    
+}
+
+@media (max-width: 768px) {
+  .timeline .event::before {
+    left: 0.5px;
+    top: 20px;
+    min-width: 0;
+    font-size: 13px;
+  }
+
+  .timeline .event:nth-child(1)::before,
+  .timeline .event:nth-child(3)::before,
+  .timeline .event:nth-child(5)::before {
+    top: 38px;
+  }
+
+  .timeline h3 {
+    font-size: 16px;
+  }
+
+  .timeline p {
+    padding-top: 20px;
+  }
+
+}
+
   /*——————————————
-  others
+  End of Samet Erpik's Timeline code
   ———————————————*/
 
   
-  .the-text-color {
+.the-text-color {
     color: var(--timeline-colour);
-  }
-
-  /*
-  img {
-    max-width: 240px;
-    max-height: 220px;
-    width: 100%;
-    object-fit: cover;
-  }
-*/
+}
 
 .flex-display p {
   flex-shrink: 5;
@@ -137,95 +193,26 @@ h1 .header {
   border: 5px solid #399cec;
   border-radius: .5em;
 }
+
 .image-container img {
   max-width: 100%;
   max-height: 100%;
   width:100%;
-  height:100%; /* solution */
+  height:100%;
   object-fit: cover;
 } 
 
-
-  .flex-display {
+.flex-display {
     display:flex;
     flex-direction: row;
     gap: 2rem;
-  }
-
-  .block-display {
-    display: block;
-  }
-
-  .newlines::after{
-        content: "\a";
-        white-space: pre;
-  }
-
-  a.portfolio-link {
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-  }
-
-/*——————————————
-Responsive Stuff
-———————————————*/
-  
-@media (max-width: 945px) {
-    .timeline .event::before {
-      left: 0.5px;
-      top: 20px;
-      min-width: 0;
-      font-size: 13px;
-    }
-
-    .timeline h3 {
-      font-size: 16px;
-    }
-
-    .timeline p {
-      padding-top: 20px;
-    }
-    
-    .flex-display {
-        display:flex;
-        flex-direction: column;
-     }
-
-    img {
-      max-width: 300px;
-      max-height: 300px;
-    }
-      
 }
-  
-@media (max-width: 768px) {
-    .timeline .event::before {
-      left: 0.5px;
-      top: 20px;
-      min-width: 0;
-      font-size: 13px;
-    }
 
-    .timeline .event:nth-child(1)::before,
-    .timeline .event:nth-child(3)::before,
-    .timeline .event:nth-child(5)::before {
-      top: 38px;
-    }
+.block-display {
+    display: block;
+}
 
-    .timeline h3 {
-      font-size: 16px;
-    }
-
-    .timeline p {
-      padding-top: 20px;
-    }
-
-/*
-    img {
-      max-width: 250px;
-      max-height: 250px;
-  }
-*/
-
+.newlines::after{
+    content: "\a";
+    white-space: pre;
 }
