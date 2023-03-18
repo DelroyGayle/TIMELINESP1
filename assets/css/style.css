@@ -137,11 +137,6 @@ Responsive Stuff
     padding-top: 20px;
   }
   
-  .flex-display {
-      display:flex;
-      flex-direction: column;
-   }
-
   img {
     max-width: 300px;
     max-height: 300px;
@@ -164,7 +159,7 @@ Responsive Stuff
   }
 
   .timeline h3 {
-    font-size: 16px;
+    font-size: 14px; /* Changed from 16px to 14px in order for titles to be displayed correctly - DG */
   }
 
   .timeline p {
@@ -182,6 +177,12 @@ Responsive Stuff
     color: var(--timeline-colour);
 }
 
+.flex-display {
+  display:flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
 .flex-display p {
   flex-shrink: 5;
 }
@@ -192,6 +193,7 @@ Responsive Stuff
   height: 180px;
   border: 5px solid #399cec;
   border-radius: .5em;
+  border:none;
 }
 
 .image-container img {
@@ -202,12 +204,6 @@ Responsive Stuff
   object-fit: cover;
 } 
 
-.flex-display {
-    display:flex;
-    flex-direction: row;
-    gap: 2rem;
-}
-
 .block-display {
     display: block;
 }
@@ -215,4 +211,24 @@ Responsive Stuff
 .newlines::after{
     content: "\a";
     white-space: pre;
+}
+
+@media (max-width: 945px) {
+  img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .flex-display {
+    display:flex;
+    flex-direction: column;
+  }
+     
+  img {
+    max-width: 200px;
+    max-height: 180px;
+  }
+
 }
