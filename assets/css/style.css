@@ -18,20 +18,6 @@ body {
   However, I have made modifications to it for my portfolio.
 ———————————————*/
 
-/* My Code */
-  
-.container {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 90%;
-}
-
-.row {
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
-  margin-bottom: 20px;
-}
-
 /* Samet Erpik's Timeline code */
 
 /* Base */
@@ -172,6 +158,20 @@ Responsive Stuff
   End of Samet Erpik's Timeline code
   ———————————————*/
 
+
+/* My Code */
+  
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+.row {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-bottom: 20px;
+}
   
 .the-text-color {
     color: var(--timeline-colour);
@@ -186,6 +186,12 @@ Responsive Stuff
 .flex-display p {
   flex-shrink: 5;
 }
+
+/* Added line breaks as described in 
+   https://www.designcise.com/web/tutorial/how-to-add-a-line-break-to-an-html-element-using-css-only 
+*/
+
+.flex-display span::before { content: '\A'; white-space: pre; }
 
 .image-container{
   
