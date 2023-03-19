@@ -3,7 +3,7 @@
 ———————————————*/
 
 body {
-    font-family: helvetica;
+  font-family: helvetica;
 }
 
 /*——————————————
@@ -17,89 +17,93 @@ body {
 /* Samet Erpik's Timeline code */
 
 /* Base */
-  
+
 #content {
-    margin-top: 50px;
-    text-align: center;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .timeline-outer {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
-  
+
 h1 .header {
-    font-size: 50px;
-    line-height: 70px;
+  font-size: 50px;
+  line-height: 70px;
 }
 
 /* Timeline */
-  
+
 .timeline {
-    border-left: 8px solid #000; /* #000 is the timeline colour */
-    border-bottom-right-radius: 2px;
-    border-top-right-radius: 2px;
-    box-shadow: 0 2px 5px 0 rgba(210, 190, 190, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    color: #333;
-    margin: 50px auto;
-    letter-spacing: 0.5px;
-    position: relative;
-    line-height: 1.4em;
-    padding: 20px;
-    list-style: none;
-    text-align: left;
+  border-left: 8px solid #000;
+  /* #000 is the timeline colour */
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(210, 190, 190, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: #333;
+  margin: 50px auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  padding: 20px;
+  list-style: none;
+  text-align: left;
 }
-  
+
 .timeline h1,
 .timeline h2,
 .timeline h3 {
-    font-size: 1.4em;
+  font-size: 1.4em;
 }
-  
+
 .timeline .event {
-    border-bottom: 1px solid rgb(160, 160, 160, 0.63);
-    padding-bottom: 15px;
-    margin-bottom: 20px;
-    position: relative;
+  border-bottom: 1px solid rgb(160, 160, 160, 0.63);
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  position: relative;
 }
-  
+
 .timeline .event:last-of-type {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    border: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
 }
-  
+
 .timeline .event::before,
 .timeline .event::after {
-    position: absolute;
-    display: block;
-    top: 0;
+  position: absolute;
+  display: block;
+  top: 0;
 }
-  
+
 .timeline .event::before {
-    left: -177.5px;
-    color: #000; /* date colour */
-    content: attr(data-date);
-    text-align: right;  
-    font-size: 14px;
-    min-width: 120px;
+  left: -177.5px;
+  color: #000;
+  /* date colour */
+  content: attr(data-date);
+  text-align: right;
+  font-size: 14px;
+  min-width: 120px;
 }
-  
+
 .timeline .event::after {
-    box-shadow: 0 0 0 8px #000; /* #000 is the timeline colour */
-    left: -30px;
-    background: #fff;  /* inner circle colour */
-    border-radius: 50%;
-    height: 11px;
-    width: 11px;
-    content: "";
-    top: 5px;
+  box-shadow: 0 0 0 8px #000;
+  /* #000 is the timeline colour */
+  left: -30px;
+  background: #fff;
+  /* inner circle colour */
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+  top: 5px;
 }
 
 /*——————————————
 Responsive Stuff
 ———————————————*/
-  
+
 @media (max-width: 945px) {
   .timeline .event::before {
     left: 0.5px;
@@ -115,7 +119,7 @@ Responsive Stuff
   .timeline p {
     padding-top: 20px;
   }
-    
+
 }
 
 @media (max-width: 768px) {
@@ -133,7 +137,8 @@ Responsive Stuff
   }
 
   .timeline h3 {
-    font-size: 14px; /* Changed from 16px to 14px in order for titles to be displayed correctly - DG */
+    font-size: 14px;
+    /* Changed from 16px to 14px in order for titles to be displayed correctly - DG */
   }
 
   .timeline p {
@@ -142,13 +147,13 @@ Responsive Stuff
 
 }
 
-  /*——————————————
+/*——————————————
   End of Samet Erpik's Timeline code
   ———————————————*/
 
 
 /* My Code */
-  
+
 .container {
   margin: 0 auto;
   max-width: 1280px;
@@ -160,27 +165,31 @@ Responsive Stuff
   margin-right: -0.75rem;
   margin-bottom: 20px;
 }
-  
+
 .the-text-color {
-    color: #000;
+  color: #000;
 }
 
 .flex-display {
-  display:flex;
+  display: flex;
   flex-direction: row;
   gap: 2rem;
 }
 
 .flex-display p {
+  /* Make space for the images */
   flex-shrink: 5;
 }
 
 /* Added line breaks as described in 
    https://www.designcise.com/web/tutorial/how-to-add-a-line-break-to-an-html-element-using-css-only 
 */
-.flex-display span::before { content: '\A'; white-space: pre; }
+.flex-display span::before {
+  content: '\A';
+  white-space: pre;
+}
 
-.image-container{
+.image-container {
   max-width: 200px;
   max-height: 200px;
   overflow: hidden
@@ -189,28 +198,39 @@ Responsive Stuff
 .image-container img {
   width: 100%;
   object-fit: cover;
-} 
+}
 
 .block-display {
-    display: block;
+  display: block;
 }
 
 @media (max-width: 945px) {
-  img {
-    max-width: 300px;
-    max-height: 300px;
+
+  /* Revert CSS style */
+  .image-container {
+    all: revert;
+  }
+
+  /* resize the container and centre the image */
+  /* https://stackoverflow.com/questions/19026884/flexbox-center-horizontally-and-vertically#33049198 */
+  .image-container {
+    max-width: 200px;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
   }
 }
 
 @media (max-width: 768px) {
   .flex-display {
-    display:flex;
+    display: flex;
     flex-direction: column;
   }
-     
-  img {
-    max-width: 200px;
-    max-height: 180px;
+
+  /* Revert CSS style */
+  .image-container {
+    all: revert;
   }
+
 
 }
