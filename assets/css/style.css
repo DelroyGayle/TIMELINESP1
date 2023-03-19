@@ -236,9 +236,8 @@ Responsive Stuff
   }
 
   /* Use the full width of the screen for mobiles */
-  /* https://stackoverflow.com/questions/27929747/html-css-display-image-at-screen-width-up-to-original-width */
   .image-container img {
-    max-width: auto;
+    max-width: 100%;
     max-height: 300px;
   }
 
