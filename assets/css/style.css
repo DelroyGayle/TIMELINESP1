@@ -219,18 +219,27 @@ Responsive Stuff
     display: flex;
     align-items: center;
   }
+
 }
 
 @media (max-width: 768px) {
+
   .flex-display {
     display: flex;
     flex-direction: column;
   }
 
   /* Revert CSS style */
-  .image-container {
+  .image-container,
+  .image-container * {
     all: revert;
   }
 
+  /* Use the full width of the screen for mobiles */
+  /* https://stackoverflow.com/questions/27929747/html-css-display-image-at-screen-width-up-to-original-width */
+  .image-container img {
+    max-width: auto;
+    max-height: 300px;
+  }
 
 }
