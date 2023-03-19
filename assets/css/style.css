@@ -2,10 +2,6 @@
   Global
 ———————————————*/
 
-:root {
-  --timeline-colour: #42A5F5;
-}
-
 body {
     font-family: helvetica;
 }
@@ -40,7 +36,7 @@ h1 .header {
 /* Timeline */
   
 .timeline {
-    border-left: 8px solid var(--timeline-colour);
+    border-left: 8px solid #000; /* #000 is the timeline colour */
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
     box-shadow: 0 2px 5px 0 rgba(210, 190, 190, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -61,8 +57,7 @@ h1 .header {
 }
   
 .timeline .event {
-    border-bottom: 1px solid rgba(160, 160, 160, 0.2);
-    border-bottom: 1px solid rgb(160 160 160, 0.63);
+    border-bottom: 1px solid rgb(160, 160, 160, 0.63);
     padding-bottom: 15px;
     margin-bottom: 20px;
     position: relative;
@@ -74,34 +69,32 @@ h1 .header {
     border: none;
 }
   
-.timeline .event:before,
-.timeline .event:after {
+.timeline .event::before,
+.timeline .event::after {
     position: absolute;
     display: block;
     top: 0;
 }
   
-.timeline .event:before {
+.timeline .event::before {
     left: -177.5px;
-    color: #212121;
+    color: #fff; /* inner circle colour */
     content: attr(data-date);
-    text-align: right;
-  
+    text-align: right;  
     font-size: 14px;
     min-width: 120px;
 }
   
 .timeline .event:after {
-    box-shadow: 0 0 0 8px var(--timeline-colour);
+    box-shadow: 0 0 0 8px #000; /* #000 is the timeline colour */
     left: -30px;
-    background: #212121;
+    background: #fff;  /* inner circle colour */
     border-radius: 50%;
     height: 11px;
     width: 11px;
     content: "";
     top: 5px;
 }
-
 
 /*——————————————
 Responsive Stuff
@@ -121,11 +114,6 @@ Responsive Stuff
 
   .timeline p {
     padding-top: 20px;
-  }
-  
-  img {
-    max-width: 300px;
-    max-height: 300px;
   }
     
 }
@@ -174,7 +162,7 @@ Responsive Stuff
 }
   
 .the-text-color {
-    color: var(--timeline-colour);
+    color: #000;
 }
 
 .flex-display {
@@ -190,11 +178,9 @@ Responsive Stuff
 /* Added line breaks as described in 
    https://www.designcise.com/web/tutorial/how-to-add-a-line-break-to-an-html-element-using-css-only 
 */
-
 .flex-display span::before { content: '\A'; white-space: pre; }
 
 .image-container{
-  
   width: 200px;        
   height: 180px;
   border: 5px solid #399cec;
@@ -212,11 +198,6 @@ Responsive Stuff
 
 .block-display {
     display: block;
-}
-
-.newlines::after{
-    content: "\a";
-    white-space: pre;
 }
 
 @media (max-width: 945px) {
