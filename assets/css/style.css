@@ -170,13 +170,16 @@ h1, h2 {
   color: #252525;
 }
 
-.logo {
-  float: left;
-  margin-bottom: 1em;
+.logo-and-menu {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
-.menu {
-  clear:left;
+.logo-and-menu a {
+  text-decoration:none;
 }
 
 /* Added a Horizontal Scrollable Menu as shown at
@@ -200,6 +203,12 @@ div .scrollmenu a {
 div .scrollmenu a:hover {
   background-color: var(--grey-colour);
 }
+
+/*
+.centre-element {
+    margin: 0 auto;
+}
+*/
 
 .container {
   margin: 0 auto;
