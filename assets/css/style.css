@@ -104,7 +104,7 @@ h1 .header {
 Responsive Stuff
 ———————————————*/
 
-@media (max-width: 945px) {
+@media (max-width: 1100px) {
   .timeline .event::before {
     left: 0.5px;
     top: 20px;
@@ -204,7 +204,7 @@ Responsive Stuff
   display: block;
 }
 
-@media (max-width: 945px) {
+@media (max-width: 1100px) {
 
   /* Revert CSS style */
   .image-container {
