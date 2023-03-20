@@ -36,11 +36,6 @@ body {
   margin: 0 auto;
 }
 
-h1 .header {
-  font-size: 50px;
-  line-height: 70px;
-}
-
 /* Timeline */
 
 .timeline {
@@ -162,6 +157,23 @@ Responsive Stuff
 
 /* My Code */
 
+/* headings and logo */
+h1 {
+  text-transform: uppercase;
+}
+
+h1, h2 {
+  letter-spacing: 4px;
+  color: #252525;
+}
+
+#logo {
+  float: left;
+}
+
+#menu {
+    margin-bottom: 3em;
+}
 .container {
   margin: 0 auto;
   max-width: 1280px;
@@ -187,6 +199,7 @@ Responsive Stuff
 .flex-display p {
   /* Make space for the images */
   flex-shrink: 5;
+  margin-top: 1em;
 }
 
 /* Added line breaks as described in 
@@ -214,7 +227,7 @@ Responsive Stuff
 
 @media (max-width: 1100px) {
 
-  /* Revert CSS style */
+  /* Revert Image CSS style */
   .image-container {
     all: revert;
   }
@@ -228,6 +241,10 @@ Responsive Stuff
     align-items: center;
   }
 
+}
+
+.footer-style {
+      text-align: center;
 }
 
 @media (max-width: 768px) {
