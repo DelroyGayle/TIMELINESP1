@@ -112,3 +112,18 @@ Happy coding!
 **Images**
 
 To the best of my knowledge, all images used are either Public Domain or pertain to an applicable Creative Commons (CC) licence.
+sirmium.jpg: The picture of "A scale model of Sirmium in Sremska Mitrovica, Serbia" is by 
+Carole Raddato from FRANKFURT, Germany - Sirmium, Pannonia Inferior, Serbia, CC BY-SA 2.0.
+
+**Bugs**
+
+Longer timeline titles such as " Melito promulgates deicide - 'God is murdered!' " were not being displayed correctly
+on mobile screens; therefore I used 
+'''
+@media (max-width: 480px) {
+  .timeline h3 {
+    font-size: 11px;
+  }
+}
+'''
+to fix this.
