@@ -211,6 +211,10 @@ h1, h2 {
   border-bottom: 1px solid #3a3a3a;
 }
 
+.active {
+  border-bottom: 1px solid #3a3a3a;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1280px;
