@@ -106,3 +106,9 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+---
+
+**Images**
+
+To the best of my knowledge, all images used are either Public Domain or pertain to an applicable Creative Commons (CC) licence.

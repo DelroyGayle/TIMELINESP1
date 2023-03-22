@@ -189,7 +189,7 @@ h1, h2 {
 
 /* navigation links */
 
-.menu{
+.menu {
   font-size: 110%;
   letter-spacing: 4px;
 }
@@ -303,10 +303,10 @@ h1, h2 {
 @media (max-width: 768px) {
   /* headings and logo */
 
-  .menu{
+  .menu {
     font-size: 90%;
   }
-  
+
   /* navigation links */
 
   .menu li {
