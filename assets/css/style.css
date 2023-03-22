@@ -137,15 +137,13 @@ Responsive Stuff
     font-size: 13px;
   }
 
-  .timeline .event:nth-child(1)::before,
-  .timeline .event:nth-child(3)::before,
-  .timeline .event:nth-child(5)::before {
+  /* Changed nth-child(1), nth-child(3), nth-child(5) to nth-child(odd) in order to handle greater than 5 entries - DG */
+  .timeline .event:nth-child(odd)::before {
     top: 38px;
   }
 
   .timeline h3 {
-    font-size: 14px;
-    /* Changed from 16px to 14px in order for titles to be displayed correctly - DG */
+    font-size: 16px;
   }
 
   .timeline p {
@@ -340,9 +338,8 @@ h1, h2 {
   }
 }
 
-
 @media (max-width: 480px) {
-  /* Ensure long titles display correctly on mobile screens by shrinking the font size */
+  /* Ensure that long titles display correctly on mobile screens by shrinking the font size */
   .timeline h3 {
     font-size: 11px;
   }
