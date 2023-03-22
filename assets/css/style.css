@@ -339,4 +339,8 @@ h1, h2 {
     object-position: top;
   }
 
+  /* Only used for 'early_church_fathers.jpg' to ensure that the faces are displayed properly */
+  .align-this-image {
+    object-position: 50% 50%;
+  }
 }
