@@ -226,26 +226,20 @@ h1, h2 {
 }
 
 .hero-image{
-  height:600px;
+  height:400px;
   width: 100%;
   background: url("../images/essex_street_chapel.png") no-repeat center center;
   background-size: cover;
-
-  /* Animates zoom effect on loading the page */
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
 }
 
 .cover-text {
   font-family: Oswald, sans-serif;
   font-size: 130%;
-  font-size: 130%;
   text-transform: uppercase;
   background-color: rgb(221, 51, 0, .65);
   position: absolute;  
-  bottom: 250px;
-  left: 60%;
+  bottom: 160px;
+  left: 57%;
   width: 500px;
   height: 140px;
   border-radius: 20px;
@@ -257,23 +251,19 @@ h1, h2 {
   color:#fff;
 }
 
-
-.hero-image1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/essex_street_chapel.png");
-  height: 10%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.prologue {
+  margin: 2em auto;
+  max-width: 80%;
+  font-size: 20px;
+  background-color: #1177cc;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
 }
 
-.hero-te2xt {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+.prologue span::before {
+  content: '\A';
+  white-space: pre;
 }
 
 .container {
