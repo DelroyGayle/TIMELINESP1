@@ -3,10 +3,6 @@
 ———————————————*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
-:root {
-  --grey-colour: #667799;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -112,6 +108,7 @@ Responsive Stuff
 ———————————————*/
 
 @media (max-width: 1100px) {
+
   .timeline .event::before {
     left: 0.5px;
     top: 20px;
@@ -130,6 +127,7 @@ Responsive Stuff
 }
 
 @media (max-width: 768px) {
+
   .timeline .event::before {
     left: 0.5px;
     top: 20px;
@@ -137,7 +135,8 @@ Responsive Stuff
     font-size: 13px;
   }
 
-  /* Changed nth-child(1), nth-child(3), nth-child(5) to nth-child(odd) in order to handle greater than 5 entries - DG */
+  /* Changed nth-child(1), nth-child(3), nth-child(5) 
+     to nth-child(odd) in order to handle greater than 5 entries - DG */
   .timeline .event:nth-child(odd)::before {
     top: 38px;
   }
@@ -159,6 +158,7 @@ Responsive Stuff
 /* =============================================== The Beginning of My Code =============================================== */
 
 /* headings and logo */
+
 h1 {
   text-transform: uppercase;
 }
@@ -236,10 +236,10 @@ h1, h2 {
   font-family: Oswald, sans-serif;
   font-size: 130%;
   text-transform: uppercase;
-  background-color: rgb(221, 51, 0, .65);
+  background-color: rgb(221, 51, 0, .65); /* #dd3300 */
   position: absolute;  
   bottom: 160px;
-  left: 57%;
+  left: 50%;
   width: 500px;
   height: 140px;
   border-radius: 20px;
@@ -278,9 +278,7 @@ h1, h2 {
   margin-bottom: 20px;
 }
 
-.the-text-color {
-  color: #000;
-}
+/* Timeline's text and image flexbox */
 
 .flex-display {
   display: flex;
@@ -297,6 +295,7 @@ h1, h2 {
 /* Added line breaks as described in 
    https://www.designcise.com/web/tutorial/how-to-add-a-line-break-to-an-html-element-using-css-only 
 */
+
 .flex-display span::before {
   content: '\A';
   white-space: pre;
@@ -317,6 +316,13 @@ h1, h2 {
   display: block;
 }
 
+
+.footer-style {
+  text-align: center;
+}
+
+/* ================= MEDIA QUERIES ================= */
+
 @media (max-width: 1100px) {
   
 /* headings and logo */
@@ -329,6 +335,17 @@ h1, h2 {
 
   .menu li {
     margin-right: 30px;
+  }
+
+  
+/* Hero image's cover text */
+
+  .cover-text {
+    font-size: 100%;
+    left: 40%;
+    width: 400px;
+    height: 110px;
+    padding: 10px 10px;
   }
 
   /* Images */
@@ -349,11 +366,8 @@ h1, h2 {
 
 }
 
-.footer-style {
-      text-align: center;
-}
-
 @media (max-width: 768px) {
+
   /* headings and logo */
 
   .menu {
@@ -365,6 +379,22 @@ h1, h2 {
   .menu li {
     margin-right: 10px;
   }
+  
+/* Hero image and cover text */
+  .hero-image{
+    height:270px;
+  }
+
+  .cover-text {
+    font-size: 80%;
+    top: 10px;
+    left: 30%;
+    width: 200px;
+    height: 160px;
+    padding: 3px 10px;
+  }
+
+  /* Timeline's text and image flexbox */
 
   .flex-display {
     display: flex;
@@ -391,6 +421,7 @@ h1, h2 {
   .align-this-image img {
     object-position: 50% 80%;
   }
+  
 }
 
 @media (max-width: 480px) {
