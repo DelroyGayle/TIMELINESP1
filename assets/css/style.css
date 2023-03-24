@@ -489,6 +489,12 @@ footer {
     font-size: 11px;
   }
 
+  /* Some titles need further reduction */
+
+  .shrink-title .timeline h3 {
+      font-size: 8px;
+  }
+
   /* Show a single column of places of worship on the Gallery page */
   .gallery-photos {
     column-count: 1;
