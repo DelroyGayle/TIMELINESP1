@@ -316,6 +316,9 @@ h1, h2 {
   display: block;
 }
 
+.grey-background {
+  background-color: #777766;
+}
 
 .footer-style {
   text-align: center;
@@ -344,14 +347,24 @@ footer {
 
 /* gallery */
 
-.photos {
+.gallery-text {
+  margin: 2em auto;
+  max-width: 45%;
+  font-size: 20px;
+  background-color: #1177cc;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.gallery-photos {
   clear: both;
   line-height: 0;
   column-count: 3;
   column-gap: 0;
 }
 
-.photos > img {
+.gallery-photos > img {
   width: 100%;
 }
 
@@ -455,6 +468,11 @@ footer {
   .align-this-image img {
     object-position: 50% 80%;
   }
+
+  /* Show two columns of places of worship on the Gallery page */
+  .gallery-photos {
+    column-count: 2;
+  }
   
 }
 
@@ -463,4 +481,10 @@ footer {
   .timeline h3 {
     font-size: 11px;
   }
+
+  /* Show a single column of places of worship on the Gallery page */
+  .gallery-photos {
+    column-count: 1;
+  }
+
 }
