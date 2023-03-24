@@ -465,8 +465,14 @@ footer {
   }
 
   /* Only used for 'early_church_fathers.jpg' to ensure that the faces are displayed properly */
-  .align-this-image img {
+  .align-50-80 img {
     object-position: 50% 80%;
+  }
+
+  /* Used for 'ludwig_haetzer.jpg, catherine_vogel.jpg, stranger_church.jpg' to ensure that 
+     these images are displayed properly */
+  .align-50-50 img {
+    object-position: 50% 50%;
   }
 
   /* Show two columns of places of worship on the Gallery page */
