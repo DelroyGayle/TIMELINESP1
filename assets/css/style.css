@@ -171,6 +171,11 @@ h1, h2 {
 
 .menu {
   clear:both;
+  /* margin: 0 10px 5em 5em; */
+}
+
+.add-menu-margins {
+  margin: 5em 0;
 }
 
 /*
@@ -182,6 +187,10 @@ h1, h2 {
   gap: 1em;
 }
 */
+
+.logo-and-menu {
+  margin-right: 135px;
+}
 
 .logo-and-menu a {
   text-decoration:none;
@@ -197,33 +206,74 @@ h1, h2 {
 
 
 /* navigation links */
-
-.menu {
+/*DG*/
+/* .menu {
   font-size: 110%;
   letter-spacing: 4px;
-}
+} */
 
+/*
 .menu ul {
   float: right;
 }
+*/
 
+.menu ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* Grey background colour */
+  background-color: #e7e9eb;
+  /* background-color: #000;
+  color: #fff; */
+}
+
+/*
 .menu li {
   float: left;
   margin-right: 60px;
   list-style-type: none;
 }
+*/
 
-.menu a {
-  text-decoration: none;
-  color: inherit;
+.menu li {
+  float: left;
+  list-style-type: none;
+  /* margin-right: 60px; */
+  /* Add a gray right border to all list items, except the last item (last-child) */
+  border-right: 1px solid #1177cc;
+  padding: 0 40px;
 }
 
-.menu a:hover {
+
+.menu li:last-child {
+  border-right: none;
+}
+
+.menu a {
+  /* text-decoration: none;
+  color: inherit; */
+  display: block;
+  padding: 8px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* .menu a:hover {
   border-bottom: 1px solid #3a3a3a;
+} */
+
+/* Change the link color to #666 DG (black) on hover */
+li a:hover {
+  background-color: #666;
 }
 
 .active {
-  border-bottom: 1px solid #3a3a3a;
+  /* border-bottom: 1px solid #3a3a3a; */
+  background-color: #dd3300;
 }
 
 /* Hero image and cover text */
@@ -390,12 +440,15 @@ footer {
   font-size: 130%;
 }
 
-  /* navigation links */
+  /* navigation links DG */
 
   .menu li {
     margin-right: 30px;
   }
 
+.menu li {
+    padding: 0px 5px;
+}
   
 /* Hero image's cover text */
 
@@ -429,20 +482,38 @@ footer {
 
   /* headings and logo */
 
-  .menu {
-    font-size: 90%;
-  }
+ /* 
+.menu ul {
+  float:none;
+}
 
-  /* navigation links */
+.menu li a {
+    display:block;
+}
+*/
 
-  .menu li {
-    margin-right: 10px;
-  }
+
+.menu li {
+  padding: 0;
+}
+
+
+
+.menu a {
+  /* text-decoration: none;
+  color: inherit; */
+  display: block;
+  padding: 0;
+  font-size: 80%;
+  line-height:normal;
+}
+
+
   
 /* Hero image and cover text */
-  .hero-image{
+  /* .hero-image{
     height:270px;
-  }
+  } */
 
   .cover-text {
     font-size: 80%;
