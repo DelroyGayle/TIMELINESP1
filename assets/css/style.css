@@ -570,70 +570,24 @@ footer {
   /* headings and logo */
 
   .logo-and-menu {
-    /* margin-right: 135px; */
     margin-right:0;
     margin-left: 45px;
 }
 
-  .menu ul {
-    /* Remove the background colour */
-    background-color:transparent;
-  }
-  
-  /*
-  .menu li {
-    float: left;
-    margin-right: 60px;
-    list-style-type: none;
-  }
-  */
+/* navigation links */
   
   .menu li {
-    float: left;
-    list-style-type: none;
-    /* margin-right: 60px; */
-    /* Add a gray right border to all list items, except the last item (last-child) */
-    /* border-right: 1px solid #1177cc;
-    border-right: 1px solid #dd3300; */
-    padding: 0 40px;
     padding: 0;
     margin:0;
-    border-right: none;
   }
-  
-  
-  .menu li:last-child {
-    border-right: none;
-  }
-  
+    
   .menu a {
-    /* text-decoration: none;
-    color: inherit; */
-    display: block;
-    padding: 8px;
-    color: #fff;
-    color:#000;
-  
-    font-size: 15px;
-    line-height: 1.5;
     line-height:normal;
-  }
-  
-  .menu a {
-    display: block;
-    padding: 8px;
-    color: #fff;
-    color: #000;
     font-size: 10px;
-    line-height: 1.5;
-    line-height:normal;
     padding: 0 8px;
-}
-
-  /* .menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-  } */
+  }
   
+ 
   /* Change the link color to #666 DG (black) on hover */
   li a:hover {
     background-color: #666;
