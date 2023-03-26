@@ -412,6 +412,10 @@ footer {
   color: #3a3a3a;
 }
 
+.social-networks a:visited, .social-networks a:active {
+  color: #3a3a3a;
+}
+
 /* gallery */
 
 .gallery-text {
