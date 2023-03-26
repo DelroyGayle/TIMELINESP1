@@ -225,9 +225,10 @@ h1, h2 {
   padding: 0;
   overflow: hidden;
   /* Grey background colour */
-  background-color: #e7e9eb;
+  /* background-color: #e7e9eb; */
   /* background-color: #000;
   color: #fff; */
+  background-color: #666;
 }
 
 /*
@@ -244,6 +245,7 @@ h1, h2 {
   /* margin-right: 60px; */
   /* Add a gray right border to all list items, except the last item (last-child) */
   border-right: 1px solid #1177cc;
+  border-right: 1px solid #dd3300;
   padding: 0 40px;
 }
 
@@ -258,6 +260,7 @@ h1, h2 {
   display: block;
   padding: 8px;
   color: #fff;
+
   font-size: 15px;
   line-height: 1.5;
 }
@@ -269,6 +272,7 @@ h1, h2 {
 /* Change the link color to #666 DG (black) on hover */
 li a:hover {
   background-color: #666;
+  background-color: #e7e9eb;
 }
 
 .active {
@@ -379,6 +383,8 @@ li a:hover {
 
 .grey-background {
   background-color: #777766;
+  background-color: #666;
+  background-color: #e7e9eb;
 }
 
 .footer-style {
@@ -553,6 +559,83 @@ footer {
     column-count: 2;
   }
   
+}
+
+@media (max-width: 600px) {
+
+  /* headings and logo */
+
+  .logo-and-menu {
+    /* margin-right: 135px; */
+    margin-right:0;
+    margin-left: 55px;
+}
+
+  .menu ul {
+    /* Remove the background colour */
+    background-color:transparent;
+  }
+  
+  /*
+  .menu li {
+    float: left;
+    margin-right: 60px;
+    list-style-type: none;
+  }
+  */
+  
+  .menu li {
+    float: left;
+    list-style-type: none;
+    /* margin-right: 60px; */
+    /* Add a gray right border to all list items, except the last item (last-child) */
+    /* border-right: 1px solid #1177cc;
+    border-right: 1px solid #dd3300; */
+    padding: 0 40px;
+    padding: 0;
+    margin:0;
+    border-right: none;
+  }
+  
+  
+  .menu li:last-child {
+    border-right: none;
+  }
+  
+  .menu a {
+    /* text-decoration: none;
+    color: inherit; */
+    display: block;
+    padding: 8px;
+    color: #fff;
+    color:#000;
+  
+    font-size: 15px;
+    line-height: 1.5;
+    line-height:normal;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 8px;
+    color: #fff;
+    color: #000;
+    font-size: 10px;
+    line-height: 1.5;
+    line-height:normal;
+}
+
+  /* .menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+  } */
+  
+  /* Change the link color to #666 DG (black) on hover */
+  li a:hover {
+    background-color: #666;
+    background-color: #e7e9eb;
+  }
+  
+
 }
 
 @media (max-width: 480px) {
