@@ -354,7 +354,6 @@ footer {
   font-size: 160%;
   margin: 1%;
   padding: 5%;
-  color: #3a3a3a;
 }
 
 .social-networks a {
@@ -503,20 +502,18 @@ footer {
     padding: 0;
     margin:0;
   }
-    
+  
+  /* Change the link color to #e7e9eb; on hover */
+  .menu li a:hover {
+    background-color: #e7e9eb;
+  }
+
   .menu a {
     line-height:normal;
     font-size: 10px;
     padding: 0 8px;
   }
-  
- 
-  /* Change the link color to #666 DG (black) on hover */
-  li a:hover {
-    background-color: #666;
-    background-color: #e7e9eb;
-  }
-  
+    
 }
 
 @media (max-width: 480px) {
@@ -535,5 +532,5 @@ footer {
   .gallery-photos {
     column-count: 1;
   }
-  
+
 }
