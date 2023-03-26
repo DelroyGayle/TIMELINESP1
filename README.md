@@ -129,3 +129,16 @@ on mobile screens; therefore I used
 }
 ```
 to fix this.
+
+Had to remove the colour from the social media icons as it was leaving a grey rectangle on the page after an icon was selected
+These grey rectangles were only visible on mobiles and laptops; not on the desktop!
+
+```
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+```  
+  ~~color: #3a3a3a;~~
+
+} 
