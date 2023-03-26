@@ -412,8 +412,8 @@ footer {
   color: #3a3a3a;
 }
 
-.social-networks a:visited, .social-networks a:hover, .social-networks a:active {
-  color: #3a3a3a;
+.social-networks a {
+  color: inherit;
 }
 
 /* gallery */
@@ -614,4 +614,7 @@ footer {
     column-count: 1;
   }
 
+  .alistof5 {
+    display:flex;
+  }
 }
