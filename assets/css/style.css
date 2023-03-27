@@ -359,10 +359,7 @@ h1, h2 {
   text-decoration: none;
 }
 
-/*On Hover Color Change*/
-#back-to-top:hover {
-  background-color: #3a3a3a;
-}
+
 
 #back-to-top a {
   text-decoration: none;
@@ -621,6 +618,40 @@ textarea {
     right: 11.25%;
     left: 86.25%;
   
+  }
+
+  .top1 {
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+    position: sticky;
+  bottom: 20px;      
+  margin-right:10px;
+  margin-top: calc(100vh + 50px);  
+  }
+
+  .back-to-top-link {
+    /* display: inline-block; */
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #d6e3f0;
+    /* emoji don't behave like regular fonts
+       so this helped position it correctly */
+    padding: 0.25rem;
+
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    /* right: 7.25%; */
+    left: 90.25%;
   }
 
   /* Show a single column of places of worship on the Gallery page */
