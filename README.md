@@ -109,6 +109,17 @@ Happy coding!
 
 ---
 
+**Menu**
+
+I followed this [W3Schools tutorial](https://www.w3schools.com/css/css_navbar_horizontal.asp) 
+to implement a Horizontal Navigation Bar
+
+**Floating Back-To-Top Button**
+
+I went on to StackOverflow to find a suitable implementation of a Back-To-Top Button
+   I used the one designed by JakeFromSF as seen at 
+   [JakeFromSF's button](https://stackoverflow.com/questions/32102747/how-to-make-a-back-to-top-button-using-css-and-html-only)
+   
 **Images**
 
 To the best of my knowledge, all images used are either Public Domain or pertain to an applicable Creative Commons (CC) licence.
