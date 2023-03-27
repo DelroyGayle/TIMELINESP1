@@ -31,33 +31,33 @@
                         <a href="page3.html">1662 - 2023</a>
                     </li>
                     <li>
-                        <a href="gallery.html" class="active">Gallery</a>
+                        <a href="gallery.html">Gallery</a>
                     </li>
                     <li>
-                        <a href="contactus.html">Contact Us</a>
+                        <a href="contactus.html" class="active">Contact Us</a>
                     </li>
                 </ul>
             </nav>
         </section>
     </header>
-    <section>
-        <div class="gallery-text">
-            <h4>This gallery shows a selection of Unitarian Meeting Houses in Great Britain.
-                <br>Courtesy of the Unitarian Historical Society.
-            </h4>
-        </div>
+   
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
+            <h1>Contact Us <i class="fas fa-people-arrows"></i></h1>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required class="text-input">
+
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required class="text-input">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required class="text-input">
+
+            <label for="subject">Message (Optional)</label>
+            <textarea id="message" name="message" placeholder="Do you have a query for us?"></textarea>
+            <input class="submit-button" type="submit" value="Submit">
+        </form>
     </section>
-    <div class="gallery-photos">
-        <img src="assets/images/essex_street_interior.jpg" alt="The interior of Essex Street Chapel, London, England">
-        <img src="assets/images/church_of_messiah_birmingham.jpg" alt="The Church of Messiah, Birmingham, England">
-        <img src="assets/images/brighton.jpg" alt="Unitarian Meeting House, Brighton, England">
-        <img src="assets/images/ipswich.jpg" alt="Unitarian Meeting House, Ipswich, England">
-        <img src="assets/images/liverpool_paradise_street.jpg" alt="Unitarian Church, Paradise Street, Liverpool, England">
-        <img src="assets/images/stvincent.jpg" alt="Saint Vincent Street Unitarian Church, Glasgow, Scotland">
-        <img src="assets/images/newry.jpg" alt="Unitarian First Presbyterian Church, Newry, County Down, Northern Ireland.">
-        <img src="assets/images/hendy.jpg" alt="Unitarian Meeting House, Hendy, Wales">
-        <img src="assets/images/edinburgh.jpg" alt="Unitarian Meeting House, Edinburgh, Scotland">
-    </div>    
     <footer>
         <ul class="social-networks">
             <li>

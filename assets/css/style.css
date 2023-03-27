@@ -211,6 +211,7 @@ h1, h2 {
   color: #fff;
   font-size: 15px;
   line-height: 1.5px;
+  text-decoration: none;
 }
 
 /* Show which menu option is active */
@@ -370,6 +371,53 @@ footer {
 
 .gallery-photos > img {
   width: 100%;
+}
+
+/* Contact Us Form */
+
+.form-section {
+  clear: left;
+  margin-top: 4em;
+  padding: 20px;
+}
+
+.contact-form {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:8px;
+}
+
+.text-input {
+  width: 200px;
+  height: 25px;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover {
+  border-color: #dd3300;
+}
+
+textarea {
+  width: 200px;
+  height: 100px;
+}
+  
+.submit-button {
+  border-radius: 2px;
+  padding: 2px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #dd3300;
+  color: #fafafa;
+  display: block;
+  margin: 0 auto;
+}
+
+.submit-button:hover {
+  background-color: #fafafa;
+  color: #dd3300;
 }
 
 /* ================= MEDIA QUERIES ================= */
