@@ -360,6 +360,13 @@ h1, h2 {
   text-decoration: none;
 }
 
+/*On Hover Color Change*/
+
+  #back-to-top:hover {
+    background-color: #3a3a3a;
+}
+
+
 /* footer */
 
 footer {
@@ -610,29 +617,17 @@ textarea {
     column-count: 1;
   }
 
-}
-
-/* As explained at https://stackoverflow.com/questions/23885255/how-to-remove-ignore-hover-css-style-on-touch-devices */
-
-/* Device that can hover (desktops) */
-@media (hover: hover) {  
-
-  /* Floating Back-To-Top Button */
-  /*On Hover Color Change*/
-
-  #back-to-top:hover {
-      background-color: #3a3a3a;
-  }
-}
-
- /* Smartphones and touchscreens */
-@media (hover: none) and (pointer: coarse) {
-
   /* Floating Back-To-Top Button */
 
   #back-to-top {
-    padding: 4px 0 4px 8px;
-    left: 88.25%;
+    left: 91.25%;
+    padding: 0;
+    font-size: 12px;
+    transition: 0.5s;
   }    
+
+  #back-to-top:hover {
+    transform: translate(0, calc(-100vh + 145px));  
+  }  
 
 }
