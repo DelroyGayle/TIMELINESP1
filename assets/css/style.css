@@ -338,32 +338,38 @@ h1, h2 {
   display: block;
 }
 
-/* Floating Back-To-Top Button
-   Based on JakeFromSF's design from 
-   https://stackoverflow.com/questions/32102747/how-to-make-a-back-to-top-button-using-css-and-html-only
-*/
+body {
+  position: relative;
+}
 
-#back-to-top {
-  position: fixed;
-  bottom: 10px;
-  float: right;
-  right: 7.25%;
-  left: 90.25%;
-  max-width: 30px;
-  width: 100%;
+.scroll-container {
+  position: absolute;
+  top: 0;
+  right:10px;
+  height: 100%;
+}
+
+/* to hide the button when page first loaded */
+.scroll-container:before {
+  content: '';
+  display: block;
+  height: 100vh;
+  pointer-events: none;
+}
+
+/* fixed to right bottom of page */
+.scroll-container a {
+  position: sticky;
+  top: 88vh;
+  cursor: pointer;
   font-size: 10px;
+
+  color: white;
   border-radius: 4px;
-  border-color: rgba(85, 85, 85, 0.2);
+  border-color: rgba(85, 85, 85, 0.2);  
   background-color: rgb(100,100,100);
   padding: 5px 4px;
   text-decoration: none;
-}
-
-
-
-#back-to-top a {
-  text-decoration: none;
-  color: #fff;
 }
 
 /* footer */
