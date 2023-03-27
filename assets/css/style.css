@@ -618,6 +618,9 @@ textarea {
 
   #back-to-top {
     padding:0;
+    right: 11.25%;
+    left: 86.25%;
+  
   }
 
   /* Show a single column of places of worship on the Gallery page */
