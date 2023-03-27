@@ -305,6 +305,28 @@ h1, h2 {
   white-space: pre;
 }
 
+
+/* Style all the links of the historical entries so that they have a uniform look */
+/* No line and blue colour */
+
+.flex-display a{
+  text-decoration: none;
+}
+
+.flex-display a:link{
+  color: #0000ff;
+}
+
+.flex-display a:visited{
+  color: #0000ff;
+}
+
+/* .flex-display p a{
+  color:peru;
+} */
+
+/* The images */
+
 .image-container {
   max-width: 200px;
   max-height: 360px;
