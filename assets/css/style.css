@@ -607,8 +607,8 @@ textarea {
   /* Hero image's cover text */
 
   .cover-text {
-    font-size: 80%;
-    width: 210px;
+    font-size: 70%;
+    width: 200px;
     height: 160px;
     padding: 3px 10px;
   }
