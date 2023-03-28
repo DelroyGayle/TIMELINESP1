@@ -603,9 +603,8 @@ textarea {
   .timeline h3 {
     font-size: 11px;
   }
-
   
-  /* Hero image and cover text */
+  /* Hero image's cover text */
 
   .cover-text {
     font-size: 80%;
@@ -613,7 +612,6 @@ textarea {
     height: 160px;
     padding: 3px 10px;
   }
-
 
   /* Show a single column of places of worship on the Gallery page */
   .gallery-photos {
