@@ -471,7 +471,7 @@ textarea {
 
 @media (max-width: 1100px) {
 
-/* headings and logo */
+  /* headings and logo */
 
   .logo {
     letter-spacing: normal;
@@ -529,7 +529,7 @@ textarea {
     line-height:normal;
   }
   
-/* Hero image and cover text */
+  /* Hero image and cover text */
 
   .cover-text {
     font-size: 80%;
@@ -580,7 +580,7 @@ textarea {
     margin-left: 45px;
 }
 
-/* navigation links */
+  /* navigation links */
   
   .menu li {
     padding: 0;
@@ -608,7 +608,7 @@ textarea {
   }
 
   .logo {
-    /* Make the logo smaller */
+  /* Make the logo smaller */
     font-size: 80%; 
   }
 
@@ -623,11 +623,6 @@ textarea {
     left: 91.25%;
     padding: 0;
     font-size: 12px;
-    transition: 0.5s;
   }    
-
-  #back-to-top:hover {
-    transform: translate(0, calc(-100vh + 145px));  
-  }  
 
 }
