@@ -499,7 +499,7 @@ textarea {
     left: 40%;
     width: 400px;
     height: 140px;
-    padding: 10px 10px;
+    padding: 10px;
   }
 
   /* Images */
@@ -532,7 +532,6 @@ textarea {
     height: 160px;
     width: 300px;
     height: 140px;
-    padding: 3px 10px;
   }
 
   /* Timeline's text and image flexbox */
@@ -610,7 +609,6 @@ textarea {
     font-size: 80%;
     width: 200px;
     height: 160px;
-    padding: 5px 10px;
   }
 
   /* Show a single column of places of worship on the Gallery page */
