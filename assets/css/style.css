@@ -171,39 +171,17 @@ h1, h2 {
         gap:1em; 
 }
 
-
-/* .menu {
-  clear:both;
-} */
-
-.add-menu-margins {
-  margin: 5em 0;
-}
-
-/* .logo-and-menu {
-  margin-right: 135px;
-  text-decoration:none;
-} */
-
 .logo {
-  float:right;
   font-family: Oswald, sans-serif;
   font-size: 160%;
-  margin: 0 5px;
-  /* text-decoration:none; */
 }
 
-.logo1 {
-  /* display:block; */
-  font-family: Oswald, sans-serif;
-  font-size: 160%;
-  /* text-decoration:none; */
-}
-
-.logo1 a {
+.logo a {
   text-decoration: none;
   text-align: center;
 }
+
+/* Menu - Navigation Bar */
 
 .menu ul {
   float: right;
@@ -359,7 +337,6 @@ h1, h2 {
   display: block;
 }
 
-
 /* Floating Back-To-Top Button
    Based on JakeFromSF's design from 
    https://stackoverflow.com/questions/32102747/how-to-make-a-back-to-top-button-using-css-and-html-only 
@@ -494,15 +471,12 @@ textarea {
 
   /* headings and logo */
 
-  .logo {
-    letter-spacing: normal;
-    font-size: 130%;
-  }
-
-  .logo1 h1 {
+  .logo h1 {
     letter-spacing: normal;
     font-size: 110%;
   }
+
+  /* Menu - Navigation Bar */
 
   .menu {
     text-align: center;
@@ -511,7 +485,6 @@ textarea {
   /* navigation links */
 
   .menu li {
-    /* margin-right: 30px; */
     padding: 0px 5px;
   }
   
@@ -550,27 +523,9 @@ textarea {
 
 @media (max-width: 768px) {
 
-  /* navigation links */
-
-  /* .menu li {
-    padding: 0;
-  }
-
-  .menu a {
-    display: block;
-    padding: 0;
-    font-size: 80%;
-    line-height:normal;
-  } */
-  
-  /* .logo1 {
-    font-size: 100%;
-  } */
-
   /* Hero image and cover text */
 
   .cover-text {
-    /*font-size: 100%; /*80%;*/
     top: 10px;
     left: 30%;
     width: 200px;
@@ -615,20 +570,12 @@ textarea {
 
   /* headings and logo */
 
-  /* .logo1 h1 {
-    letter-spacing: normal;
-    font-size: 100%;
-  } */
-
-  .logo1 {
+  .logo {
     letter-spacing: normal;
     font-size: 100%;
   }
 
-  .logo-and-menu {
-    margin-right:0;
-    margin-left: 45px;
-}
+  /* Menu - Navigation Bar */
 
   /* navigation links */
   
@@ -655,16 +602,6 @@ textarea {
   /* Ensure that long titles display correctly on mobile screens by shrinking the font size */
   .timeline h3 {
     font-size: 11px;
-  }
-
-  .logo {
-  /* Make the logo smaller */
-    font-size: 80%; 
-  }
-
-  .logo1 h1 {
-    letter-spacing: normal;
-    font-size: 100%;
   }
 
   
