@@ -498,7 +498,7 @@ textarea {
     font-size: 100%;
     left: 40%;
     width: 400px;
-    height: 120px;
+    height: 140px;
     padding: 10px 10px;
   }
 
@@ -607,10 +607,10 @@ textarea {
   /* Hero image's cover text */
 
   .cover-text {
-    font-size: 70%;
+    font-size: 80%;
     width: 200px;
     height: 160px;
-    padding: 3px 10px;
+    padding: 5px 10px;
   }
 
   /* Show a single column of places of worship on the Gallery page */
