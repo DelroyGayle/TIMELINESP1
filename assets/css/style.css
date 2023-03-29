@@ -242,8 +242,9 @@ h1, h2 {
   background-color: rgb(221, 51, 0, .65); /* #dd3300 */
   position: absolute;  
   bottom: 160px;
-  
   left: 50%;
+  font-size: 80%;
+
   /*
   width: 500px;
   height: 140px;
@@ -608,7 +609,7 @@ textarea {
   .cover-text {
     font-size: 80%;
     width: 250px;
-    height: 135px;
+    height: 140px;
     padding: 0;
     left: 25%;
   }
