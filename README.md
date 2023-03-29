@@ -25,12 +25,23 @@ The timeline highlights the opposition to such teaching and the perseverance of 
 ![image](https://user-images.githubusercontent.com/91061592/228494874-62c8c311-5262-4fab-bee0-c5633c8ed572.png)
 
 * **The Header**
-   * Because of the length of the time period covered I chose to split up the timeline into three periods
+   * Because of the length of the time period covered I chose to split up the timeline into three webpages representing three periods
    * Each page has a black coloured logo which acts as a link back to the First page i.e. the Home page
    * The current time period is highlighted in brown
+   
+---
+
+* **Timeline Entries**
+   * Each timeline entry consists of four parts
+   1) A particular date or year
+   2) Followed by a title
+   3) A description of a particular event or person for that date/year
+   4) An image related to the description, for example, a portrait of the person in question
+
+* **Three webpages for three periods**
    * What follows is a look at each of the three pages of the timeline
    * The first page **1 - 431** is the Home Page. It therefore, has a hero image with cover text that gives a summary of the subject of the timeline.
-   
+
 ---
    
    * ### First page: 1 - 431
@@ -96,7 +107,7 @@ The timeline highlights the opposition to such teaching and the perseverance of 
 
 * I tested that the pages work in both Chrome and Firefox
 * I confirmed that this project is responsive and functions correctly on all standard screen sizes using the browser's DevTools device toolbars.
-* I confirmed that the navigation, header, contact us and page contents are all readable and easy to understand.
+* I confirmed that the navigation, header, Contact Us form and page contents are all readable and easy to understand.
 * I have confirmed that the form works. That is, each mandatory field requires entries; the email field will only accept email addresses with the @ symbol.
 * I have confirmed that the submit button works.
 
@@ -166,7 +177,7 @@ The live link can be found here - [Unitarian Christian Timeline](https://delroyg
 * GitHub - for hosting the site
 * Gitpod - for editing the files
 * GitPages - for the deployment of the site
-* Font Awesome - for the people icon on the Contact Us page
+* Font Awesome - used for the social media icons and the people icon on the Contact Us page
 
 ---
 
@@ -176,7 +187,7 @@ The live link can be found here - [Unitarian Christian Timeline](https://delroyg
 
 * I would like to implement the Back To Top button using JavaScript as opposed to CSS
 
-* I would like to implement a Search Bar so that as the user types a particular keyword they are directed to its location in the timeline
+* I would like to implement a Search Bar so that as the user types a particular keyword the user is directed to its location in the webpage
 
 * I would like to create a thank you page for the user to be redirected to once the user has completed the Contact Us form
 
@@ -185,7 +196,8 @@ The live link can be found here - [Unitarian Christian Timeline](https://delroyg
 
 ### Responsive Timeline
 
-The timeline I chose to use was adapted from the timeline designed by **Samet Erpik**
+The timeline I chose to use was adapted from the timeline designed by **Samet Erpik**.
+
 The codepen for this timeline is at <https://codepen.io/samerpik/pen/OVKyVZ>
 
 ### Menu
@@ -210,7 +222,7 @@ So I re-coded it accordingly without using a button.
 
 * To the best of my knowledge, all images used are either Public Domain or pertain to an applicable Creative Commons (CC) licence.
 
-* The pictures of the Unitarian Meeting Houses are from the Unitarian Historical Society.
+* The pictures of the Unitarian Meeting Houses on the Gallery page are from the Unitarian Historical Society.
 
 * Sirmium: The picture of "*A scale model of Sirmium in Sremska Mitrovica, Serbia*" is by 
 Carole Raddato from FRANKFURT, Germany - Sirmium, Pannonia Inferior, Serbia, CC BY-SA 2.0.
