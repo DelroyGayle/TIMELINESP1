@@ -616,3 +616,15 @@ textarea {
   }    
 
 }
+
+/* Added this media query regarding menus
+   because https://ui.dev/amiresponsive tests mobiles uses 320x480px for mobiles
+   So need to ensure that the navigation bar looks OK
+*/
+
+
+@media (max-width: 320px) {
+  .menu a {
+    padding: 0 6px;
+  }
+}  
