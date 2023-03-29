@@ -238,17 +238,12 @@ h1, h2 {
 
 .cover-text {
   font-family: Oswald, sans-serif;
+  font-size: 80%;
   text-transform: uppercase;
   background-color: rgb(221, 51, 0, .65); /* #dd3300 */
   position: absolute;  
   bottom: 160px;
   left: 50%;
-  font-size: 80%;
-
-  /*
-  width: 500px;
-  height: 140px;
-  */
   border-radius: 20px;
   padding: 10px;
   text-align: center;
@@ -306,7 +301,6 @@ h1, h2 {
   content: '\A';
   white-space: pre;
 }
-
 
 /* Style all the links of the historical entries so that they have a uniform look */
 /* No line and blue colour */
@@ -366,7 +360,6 @@ h1, h2 {
   #back-to-top:hover {
     background-color: #3a3a3a;
 }
-
 
 /* footer */
 
@@ -499,10 +492,6 @@ textarea {
 
   .cover-text {
     left: 40%;
-    /*
-    width: 400px;
-    height: 140px;
-    */
   }
 
   /* Images */
@@ -531,7 +520,6 @@ textarea {
   .cover-text {
     top: 10px;
     left: 30%;
-    /* width: 200px; */
     height: 140px;
   }
 
@@ -628,4 +616,3 @@ textarea {
   }    
 
 }
-
