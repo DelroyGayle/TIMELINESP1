@@ -2,7 +2,8 @@
 
 # Unitarian Christian Timeline
 
-![image](https://user-images.githubusercontent.com/91061592/228225449-857f2342-cc17-455c-bc4f-93a17701f28c.png)
+![image](https://user-images.githubusercontent.com/91061592/228402388-21d33f6d-182f-45d7-96a6-f162aa503b58.png)
+
 
 
 ## Features
