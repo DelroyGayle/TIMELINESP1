@@ -178,7 +178,7 @@ The live link can be found here - [Unitarian Christian Timeline](https://delroyg
 * GitHub - for hosting the site
 * Gitpod - for editing the files
 * GitPages - for the deployment of the site
-* Font Awesome - used for the social media icons and the people icon on the Contact Us page
+* Font Awesome - used for the social media icons, the up arrow icon of the 'Back To Stop' button and the people icon on the Contact Us page
 
 ---
 
