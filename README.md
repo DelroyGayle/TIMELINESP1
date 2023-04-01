@@ -84,7 +84,7 @@ The timeline highlights the opposition to such teaching and the perseverance of 
 * **Back To Top**
    * Because of the height of the Timeline and the Gallery pages, I have implemented a *Back To Top* Button; so that when clicked, the user would be taken to the top of the page so that the user can access the navigation bar.
 
-![image](https://user-images.githubusercontent.com/91061592/228496044-31ffc755-43d9-4002-a5cd-1b73368a5bbf.png)
+![image](https://user-images.githubusercontent.com/91061592/229276144-037be972-003a-4895-86dc-6cefe893a44f.png)
 
 ------
 
