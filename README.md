@@ -78,6 +78,13 @@ Visit the deployed site: [Unitarian Christian Timeline](https://delroygayle.gith
    
 ![image](https://user-images.githubusercontent.com/91061592/228496614-60e78bee-afe2-4235-8877-ffb8e9f94399.png)
 
+* **Thank You Page**
+
+Once the user submits the form on the Contact Us page they will be redirected to this page thanking them. Thereby indicating to the user that the form was submitted correctly. After five seconds the user will be directed back to the Home page, that is, **1 - 431**  
+
+![image](https://user-images.githubusercontent.com/91061592/229307906-1e9b37b1-2ad8-4cac-a54d-8f498cc934cb.png)
+
+
 * **Social Media**
 
    * Each page includes social media icons so that users can find the Timeline on Facebook, Twitter, YouTube and Instagram.
