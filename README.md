@@ -27,7 +27,7 @@ Visit the deployed site: [Unitarian Christian Timeline](https://delroygayle.gith
 * **The Header**
    * Because of the length of the time period covered I chose to split up the timeline into three webpages representing three periods
    * Each page has a black coloured logo which acts as a link back to the First page i.e. the Home page
-   * The current time period is highlighted in brown
+   * The current time period is highlighted in brown 
    
 ---
 
