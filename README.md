@@ -46,7 +46,8 @@ Visit the deployed site: [Unitarian Christian Timeline](https://delroygayle.gith
    
    * ### First page: 1 - 431
 
-![image](https://user-images.githubusercontent.com/91061592/228494655-3d4bf812-753b-4b7d-b91f-a4a136f944a8.png)
+![image](https://user-images.githubusercontent.com/91061592/229279795-0b0c5495-c79c-45cb-8d8a-f2d6b46b4a09.png)
+
 
 ---
    
@@ -235,4 +236,4 @@ The biography of Robert Spears was written by Alan Ruston, courtesy of Unitarian
 
 ### Acknowledgements
 
-Many thanks to my mentor Derek McAuley for his help and advice.
+Many thanks to my mentor Derek McAuley for his help, suggestions and advice.
