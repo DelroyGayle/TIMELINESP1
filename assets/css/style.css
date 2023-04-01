@@ -446,8 +446,8 @@ textarea {
 }
   
 .submit-button {
-  border-radius: 2px;
-  padding: 2px;
+  border-radius: 2em;
+  padding: 10px;
   text-align: center;
   font-size: 100%;
   background-color: #dd3300;
@@ -459,6 +459,17 @@ textarea {
 .submit-button:hover {
   background-color: #fafafa;
   color: #dd3300;
+}
+
+/* Thank You message */
+.thank-you-container {
+  text-align: center;
+  background-color: #dd3300;
+  color: #fff; 
+  border-radius: 2em;
+  width: 40%;
+  margin: 5em auto;
+  padding: 1em 2em;
 }
 
 /* ================= MEDIA QUERIES ================= */
