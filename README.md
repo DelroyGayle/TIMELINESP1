@@ -1,13 +1,13 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 # Unitarian Christian Timeline
 
-For my Code Institute Portfolio I have implemented a historical timeline website. This timeline highlights particular, historical key events and persons regarding 
+For my Code Institute Portfolio Project 1, I have implemented a historical timeline website. This timeline highlights particular, historical key events and persons regarding 
 *the biblical teaching of the ONE GOD the Father and His Human Son, Jesus the Christ*; from the time of Christ up to 2023. 
 
 The timeline highlights the opposition to such teaching and the perseverance of believers despite the opposition.
 
 ![image](https://user-images.githubusercontent.com/91061592/228402388-21d33f6d-182f-45d7-96a6-f162aa503b58.png)
+
+Visit the deployed site: [Unitarian Christian Timeline](https://delroygayle.github.io/UnitarianChristianTimeline/)
 
 ## Features
 
